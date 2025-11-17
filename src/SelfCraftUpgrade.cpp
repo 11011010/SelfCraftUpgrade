@@ -111,6 +111,9 @@ namespace SelfCraftUpgradeHelper
             return;
 
         Field* fields = result->Fetch();
+        if (!fields || fields[0].IsNull())
+            return;
+
         uint32 maxBossILevel = fields[0].Get<uint32>();
 
         if (maxBossILevel <= itemILevel)
