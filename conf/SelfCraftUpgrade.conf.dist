@@ -1,0 +1,50 @@
+[worldserver.loading]
+
+###################################################################################################
+#
+#    SelfCraftUpgrade.Enable
+#        Description: Enable the Self Craft Upgrade module
+#        Default:     1
+#
+#    SelfCraftUpgrade.AnnounceOnKill
+#        Description: Announce to player when they kill a boss that grants upgrades
+#        Default:     1
+#
+#    SelfCraftUpgrade.StatMultiplier
+#        Description: Base multiplier for stat calculations (default: 1.0109)
+#        Default:     1.0109
+#
+###################################################################################################
+
+SelfCraftUpgrade.Enable = 1
+SelfCraftUpgrade.AnnounceOnKill = 1
+SelfCraftUpgrade.StatMultiplier = 1.0109
+
+###################################################################################################
+#
+#    Boss NPC ID to Max Item Level Mappings
+#    Format: SelfCraftUpgrade.Boss.<NPC_ID> = <Max_Item_Level>
+#
+#    Example bosses and their item levels:
+#    - Ragnaros (Molten Core): 11502 = 268
+#    - Onyxia: 10184 = 268
+#    - Nefarian: 11583 = 277
+#    - C'Thun: 15727 = 277
+#    - Kel'Thuzad: 15990 = 283
+#
+###################################################################################################
+
+# Molten Core
+SelfCraftUpgrade.Boss.11502 = 268
+
+# Onyxia's Lair
+SelfCraftUpgrade.Boss.10184 = 268
+
+# Blackwing Lair
+SelfCraftUpgrade.Boss.11583 = 277
+
+# Temple of Ahn'Qiraj
+SelfCraftUpgrade.Boss.15727 = 277
+
+# Naxxramas
+SelfCraftUpgrade.Boss.15990 = 283
