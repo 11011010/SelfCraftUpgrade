@@ -2,6 +2,18 @@
 
 An AzerothCore module that provides stat upgrades for self-crafted players who kill specific boss NPCs.
 
+## Table of Contents
+
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Example](#example)
+- [Documentation](#documentation)
+- [Requirements](#requirements)
+- [Credits](#credits)
+- [License](#license)
+
 ## Description
 
 This module is designed to work with the [mod-challenge-modes](https://github.com/ZhengPeiRu21/mod-challenge-modes) module, specifically for self-crafted characters. When a self-crafted player kills certain boss NPCs (like Ragnaros), all epic items they wear receive additional stats based on the item level difference between the boss's dropped loot and the equipped item.
@@ -91,6 +103,14 @@ Additional Strength = 40 - 20 = 20
 ```
 
 The item would gain +20 Strength.
+
+## Documentation
+
+For more detailed information, please refer to:
+
+- **[INTEGRATION.md](INTEGRATION.md)** - Integration with mod-challenge-modes, configuration for self-crafted servers, and troubleshooting
+- **[EXAMPLES.md](EXAMPLES.md)** - Detailed calculation examples, testing scenarios, and a bonus calculator
+- **[TESTING.md](TESTING.md)** - Comprehensive testing checklist to verify the module works correctly
 
 ## Requirements
 
